@@ -4,7 +4,6 @@ export default  function ToDoCard(props){
         <li className='todoItem'>
             {children}
             <div className='actionsContainer'>
-                {children}
                 <button onClick={() => {
                     handleEditTodo(index)
                 }}>
